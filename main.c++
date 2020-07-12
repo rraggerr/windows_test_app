@@ -37,7 +37,7 @@ int main( )
 	UpdateWindow( _hwnd );
 	
 	MSG msg;
-	std::memset( &msg, 0, sizeof( MSG ) );
+	memset( &msg, 0, sizeof( MSG ) );
 	
 	
 	while ( msg.message != WM_QUIT )
